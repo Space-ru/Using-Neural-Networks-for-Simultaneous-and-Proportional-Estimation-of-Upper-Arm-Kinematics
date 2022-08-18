@@ -6,9 +6,9 @@ This work compares the use of three different artificial neural networks (ANNs) 
 
 
 The code and data are organized per subject (S1 to S5) for convenience rather than efficiency. The structure is:
-=> Subject (1 to 5)
-===> Model (MLP, TDNN, RNN)
-=====> Movement (Elbow, ShoulderXY, ShoulderXZ, Shoulder YZ, SimultaneousYZ, SimultaneousXY, SimultaneousXZ)
+* Subject (1 to 5)
+** Model (MLP, TDNN, RNN)
+*** Movement (Elbow, ShoulderXY, ShoulderXZ, Shoulder YZ, SimultaneousYZ, SimultaneousXY, SimultaneousXZ)
 
 Hence all data/code for [Subject 1/MLP/Elbow] is in that particular folder and not dependent on other folders.
 
