@@ -13,8 +13,8 @@ The code and data are organized per subject (S1 to S5) for convenience rather th
 Hence all data/code for [Subject 1/MLP/Elbow] is in that particular folder and not dependent on other folders.
 
 The pipeline is as follows:
-1. Extract_EMG_position.m: from the raw data (in some cases unavailable) extract EMG data and VICON positions. The joint angle is calculated and all data is stored in TestTrial.mat files (one file per trial).
+1. Extract_EMG_position.m: from the raw CSV data (in some cases unavailable) extract EMG data and VICON positions. The joint angle is calculated and all data is stored in TestTrial.mat files (one file per trial).
 2. Preprocessing_EMG.m: TestTrial files are processed where different features are calculated for the EMG signal (ex: RMS, normalization). Files are then stored as FeaturesTrials.mat (one file per trial).
 3. mlp_app_cross.m: FeaturesTrials.mat files are used as inputs in a crossvalidation format and results presented in a table.
 
-Other MATLAB scripts are there for testing purposes and analysis, including different crossvalidation strategies.
+Other MATLAB scripts are there for testing purposes and were not reported in the documentation, including different crossvalidation strategies.
